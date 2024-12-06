@@ -1,51 +1,36 @@
-//classwork 1
-console.log("Aliyah".length);
-console.log("Liya".length);
+// JavaScript is a programming language used for making static webapps dynamic and interactive.
 
-// Uppercase
-//classwork 2
-console.log("aliyah".toUpperCase())
+// Single comment
 
-// Lowercase
-console.log("All charactersto lowercase =>","I AM SUPER EXCITED TO START LEARNING JS".toLowerCase())
+/**
+ * Multi-line comment or JS Doc
+ */
 
-//classwork 3
-console.log("check whether it contain a substring =>", "aliyah".includes("a"));
+// ===== DATA TYPES =====
+// A representation of characters in a programming language.
 
-// /index of a string characters/
-//string [index]
-console.log("first character","aliyah"[0]);
-console.log("second character", "aliyah"[1]);
-console.log("third character", "aliyah"[2]);
-console.log("fourth character", "aliyah"[3]);
-console.log("fifth character", "aliyah"[4]);
-console.log("sixth character", "aliyah"[5]);
+// 1. String Data type
+// Any characters with single ('') or double quotation ("") mark is a string.
 
-// chart
-// Returns the character at the specified index
-// Example: "aliyah".charAt(4)
+"I am really happy to starting learning JS";
+"I am learning JS";
+"I am super excited to start learning JS";
+"44344335";
 
-// * Slice(start, end): Extracts part of a string and returns it
-// classwork 4
-console.log("aliyah".slice(0, 4))
+// 2. Number Data type
+// Any number whole number, decimal, fraction e.t.c
+2;
+6;
+44;
+0.238448;
+1 / 2;
 
-//split(seperator): Splits a string into an array of substrings
-console.log("aliyah".split(""))
+// 3.Boolean Data type
+// It has two values
+true;
+false;
 
-//  Math methods
-// CLASSWORK 5
-console.log("Math random result btw 0 and 1 =>", Math.random());
-console.log("Math random result btw 0 and 5 =>", Math.random());
-console.log("Math random result btw 0 and 2 =>", Math.random() * 5);
-console.log("Math random result numbers from 1 to 10 =>", Math.random() * 10 + 1);
-
-console.log(
-  "Math random result numbers from 1 to 100 =>",
-  Math.random() * 100 + 1
-);
-console.log("RESULT OF RANDOM =>", Math.random() *100 + 1);
-
-
-
-
-
+//4. Undefined: a variable decleared but has not been assigned a value.
+//5. Null : empty value
+//6. Symbol Data type
+//7. Object Data type: are key-value pairs. It is denoted with curly braces {}.
